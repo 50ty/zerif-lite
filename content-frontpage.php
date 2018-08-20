@@ -31,9 +31,15 @@ if ( ( isset( $zerif_ourfocus_show ) && $zerif_ourfocus_show != 1 ) || is_custom
 
 }
 
-	/* RIBBON WITH BOTTOM BUTTON */
+	/* TESTIMONIALS */
 
-	get_template_part( 'sections/ribbon_with_bottom_button' );
+	$zerif_testimonials_show = get_theme_mod( 'zerif_testimonials_show' );
+
+if ( ( isset( $zerif_testimonials_show ) && $zerif_testimonials_show != 1 ) || is_customize_preview() ) {
+
+	get_template_part( 'sections/testimonials' );
+
+}
 
 	/* ABOUT US */
 
@@ -45,6 +51,10 @@ if ( ( isset( $zerif_aboutus_show ) && $zerif_aboutus_show != 1 ) || is_customiz
 
 }
 
+	/* RIBBON WITH RIGHT SIDE BUTTON */
+
+	get_template_part( 'sections/ribbon_with_right_button' );
+
 	/* OUR TEAM */
 
 	$zerif_ourteam_show = get_theme_mod( 'zerif_ourteam_show' );
@@ -55,19 +65,9 @@ if ( ( isset( $zerif_ourteam_show ) && $zerif_ourteam_show != 1 ) || is_customiz
 
 }
 
-	/* TESTIMONIALS */
+    /* RIBBON WITH BOTTOM BUTTON */
 
-	$zerif_testimonials_show = get_theme_mod( 'zerif_testimonials_show' );
-
-if ( ( isset( $zerif_testimonials_show ) && $zerif_testimonials_show != 1 ) || is_customize_preview() ) {
-
-	get_template_part( 'sections/testimonials' );
-
-}
-
-	/* RIBBON WITH RIGHT SIDE BUTTON */
-
-	get_template_part( 'sections/ribbon_with_right_button' );
+	get_template_part( 'sections/ribbon_with_bottom_button' );
 
 	/* LATEST NEWS */
 	$zerif_latestnews_show = get_theme_mod( 'zerif_latestnews_show' );
