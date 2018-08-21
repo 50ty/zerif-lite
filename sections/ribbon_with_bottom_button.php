@@ -30,7 +30,7 @@ if ( ! empty( $zerif_bottomribbon_text ) ) :
 	echo wp_kses_post( $zerif_bottomribbon_text );
 	echo '</h2>';
 	echo '</div>';
-	echo '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167944.2883976049!2d10.437232456089058!3d48.874807672777244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799284a6159aa47%3A0xcded6748f678cec9!2sRieser+Kraftwerk!5e0!3m2!1sde!2sde!4v1497374088008" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>';
+	echo '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167944.2883976049!2d10.437232456089058!3d48.874807672777244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799284a6159aa47%3A0xcded6748f678cec9!2sRieser+Kraftwerk!5e0!3m2!1sde!2sde!4v1497374088008" width="1200" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>';
 
 	if ( ! empty( $zerif_bottomribbon_buttonlabel ) && ! empty( $zerif_bottomribbon_buttonlink ) ) :
 

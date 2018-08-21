@@ -456,10 +456,10 @@ h6 {
 	text-transform: uppercase;
 }
 .red-btn {
-	background: #454444;
+	background: #23282d;
 }
 .green-btn {
-	background: #454444;
+	background: #23282d;
 }
 .blue-btn {
 	background: #3ab0e2;
@@ -1641,7 +1641,7 @@ object {
 .header-content-wrap {
 	position: relative;
 	padding: 285px 0 210px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(35, 40, 45, 0.6);
 	-webkit-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
 	box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
 }
@@ -1689,7 +1689,7 @@ object {
 .navbar {
 	border: 0;
 	border-radius: 0 !important;
-	background: #454444;
+	background: #23282d;
 	text-align: left;
 }
 #main-nav {
@@ -1739,7 +1739,7 @@ object {
 	top: 100%;
 	left: -999em;
 	width: 200px;
-	background:#454444;
+	background:#23282d;
 	box-shadow: 3px 3px 2px rgba(50, 50, 50, 0.08);
 }
 .navbar-inverse .navbar-nav ul.sub-menu {
@@ -2250,7 +2250,7 @@ ul.nav > li.current_page_item.current > a:before {
 
 .separator-one {
 	padding: 100px 0 100px 0;
-	background: #454444;
+	background: #23282d;
 }
 .separator-one .green-btn {
 	background: #14a168;
@@ -2583,7 +2583,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 
 .about-us {
 	color: #fff;
-	background: #454444;
+	background: #23282d;
 }
 .about-us .big-intro {
 	margin-top: -15px;
@@ -3196,7 +3196,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 
 .testimonial {
 	padding-bottom: 90px;
-	background: rgba(0,238,0,.5);
+	background: rgba(35, 40, 45, 0.7);
 }
 .testimonial .section-header .section-legend {
 	color: #fff;
@@ -3351,7 +3351,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 
 .contact-us {
 	padding-bottom: 95px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(35, 40, 45, 0.6);
 }
 .contact-us .section-header .section-legend {
 	color: #fff;
@@ -3397,7 +3397,7 @@ textarea {
 -----------------------------------------*/
 
 #footer {
-	background: #454444;
+	background: #23282d;
 	line-height: 20px;
 }
 .company-details {
@@ -3420,7 +3420,7 @@ textarea {
 .copyright {
 	padding-top: 68px;
 	padding-bottom: 68px;
-	background: #333232;
+	background: #32373c;
 }
 .social {
 	margin: 0 0 1.5em 0 !important;
@@ -3434,7 +3434,7 @@ textarea {
 	font-size: 18px;
 }
 .social li a:hover {
-	color: #e96656;
+	color: #00ee00;
 }
 .copyright p {
 	margin-bottom: 0;

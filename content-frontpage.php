@@ -31,6 +31,10 @@ if ( ( isset( $zerif_ourfocus_show ) && $zerif_ourfocus_show != 1 ) || is_custom
 
 }
 
+	/* RIBBON WITH RIGHT SIDE BUTTON */
+	get_template_part( 'sections/ribbon_with_right_button' );
+
+
 	/* TESTIMONIALS */
 
 	$zerif_testimonials_show = get_theme_mod( 'zerif_testimonials_show' );
@@ -40,6 +44,9 @@ if ( ( isset( $zerif_testimonials_show ) && $zerif_testimonials_show != 1 ) || i
 	get_template_part( 'sections/testimonials' );
 
 }
+
+
+
 
 	/* ABOUT US */
 
@@ -51,9 +58,7 @@ if ( ( isset( $zerif_aboutus_show ) && $zerif_aboutus_show != 1 ) || is_customiz
 
 }
 
-	/* RIBBON WITH RIGHT SIDE BUTTON */
 
-	get_template_part( 'sections/ribbon_with_right_button' );
 
 	/* OUR TEAM */
 
@@ -134,5 +139,24 @@ if ( ( isset( $zerif_contactus_show ) && $zerif_contactus_show != 1 ) || is_cust
 				</div> <!-- / END CONTAINER -->
 
 			</section> <!-- / END CONTACT US SECTION-->
-			<?php
-		endif;
+
+<?php
+        	echo '<section class="contact-us" id="studio" style="background-color: rgba(35, 40, 45, 0.98);">';
+/*      	echo '    <div class="container">';
+        	echo '        <div class="section-header">';
+        	echo '            <h2 class="white-text">Unser Studio</h2>';
+        	echo '        </div>';
+        	echo          do_shortcode('[ngg_images source="galleries" container_ids="3" display_type="photocrati-nextgen_basic_slideshow" gallery_width="1110" gallery_height="739" cycle_effect="fade" cycle_interval="3" show_thumbnail_link="0" order_by="sortorder$
+        	echo '    </div>';
+        	echo '    <br/>';
+        	echo '    <br/>';*/
+	        echo '    <div class="container">';
+	        echo '        <div class="section-header">';
+	        echo '            <h2 class="white-text">Öffnungszeiten</h2>';
+        	echo '        </div>';
+	        echo          do_shortcode('[op-overview set_id="388" show_closed_days="true" highlight="day" include_io="true" include_holidays="true" hide_io_date="true"]');
+	        echo '    </div>';
+        	echo '</section>';
+	?>
+<?php
+endif;

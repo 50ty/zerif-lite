@@ -22,7 +22,7 @@ if ( ! empty( $zerif_ribbonright_text ) ) {
 	echo '<section class="purchase-now ribbon-without-button" id="kursplan">';
 	echo '    <div class="container">';
 	echo '        <div class="section-header">';
-	echo '            <h2 class="white-text">Kursplan</h2>';
+	echo '            <h2 class="white-text">Unsere Kurse</h2>';
 	echo '        </div>';
 	echo '        <div class="row" data-scrollreveal="enter right after 0s over 1s" data-sr-init="true" data-sr-complete="true">';
 	echo '            <div style="margin-bottom: 50px; margin-top: -30px;  padding-top: 20px;  padding-bottom: 20px; padding-left: 30px; padding-right: 30px; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; -moz-box-shadow: 4px 4px 14px #000; -webkit-box-shadow: 4px 4px 14px #000; box-shadow: 4px 4px 14px #000;  background: #FFFFFF;">';
@@ -35,7 +35,7 @@ if ( ! empty( $zerif_ribbonright_text ) ) {
 	echo '    </div>';
 	echo '</section>';
 
-	echo '<section class="contact-us" id="studio" style="background-color: rgba(0,0,0, 0.95);">';
+/*	echo '<section class="contact-us" id="studio" style="background-color: rgba(0,0,0, 0.95);">';
 	echo '    <div class="container">';
 	echo '        <div class="section-header">';
 	echo '            <h2 class="white-text">Unser Studio</h2>';
@@ -50,7 +50,7 @@ if ( ! empty( $zerif_ribbonright_text ) ) {
 	echo '        </div>';
 	echo          do_shortcode('[op-overview set_id="388" show_closed_days="true" highlight="day" include_io="true" include_holidays="true" hide_io_date="true"]');
 	echo '    </div>';
-	echo '</section>';
+	echo '</section>';*/
 } elseif ( is_customize_preview() ) {
 
 	$zerif_ribbonright_buttonlabel = get_theme_mod( 'zerif_ribbonright_buttonlabel' );
